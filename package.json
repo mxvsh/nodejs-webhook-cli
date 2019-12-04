@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-webhook-cli",
+  "version": "1.0.0",
+  "description": "Basic HTTP request logger for Node JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedevxen/nodejs-webhook-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thedevxen/nodejs-webhook-cli/issues"
+  },
+  "bin": {
+    "httplog": "./src/cli.js"
+  },
+  "homepage": "https://github.com/thedevxen/nodejs-webhook-cli#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "boxen": "^4.1.0",
+    "colors": "^1.4.0",
+    "commander": "^4.0.1",
+    "express": "^4.17.1",
+    "ora": "^4.0.3"
+  }
+}
