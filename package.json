@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/thedevxen/nodejs-webhook-cli#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "boxen": "^4.1.0",
     "colors": "^1.4.0",
     "commander": "^4.0.1",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "ora": "^4.0.3"
   }
 }
